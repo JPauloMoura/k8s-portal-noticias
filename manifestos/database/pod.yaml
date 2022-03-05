@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mysql-noticias
+  labels:
+    name: mysql-noticias
+spec:
+  containers:
+  - name: mysql-noticias
+    image: aluracursos/mysql-db:1
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 3306
+    envFrom:
+      - configMapRef:
+          name: mysql-configmap
