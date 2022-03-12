@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sistema-pod
+  labels:
+    app: sistema-pod
+spec:
+  containers:
+    - name: sistema-container
+      image: aluracursos/sistema-noticias:1
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
+      ports:
+        - containerPort: 80
+      envFrom:
+        - configMapRef:
+            name: sistema-configmap
