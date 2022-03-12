@@ -1,5 +1,5 @@
 # Recursos para o sistema de notícias
-#### Criamos 3 tipos de recursos do k8s para gerenciar o nosso banco de dados:
+#### Criamos 3 tipos de recursos do k8s para gerenciar o nosso sistema de notícias:
 - [Pod](#pod)
 - [ConfigMap](#configmap)
 - [Service](#service)
