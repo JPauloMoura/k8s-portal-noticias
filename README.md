@@ -1,11 +1,11 @@
 [<img src="https://user-images.githubusercontent.com/62079201/158043432-5e88528d-9bd4-4ceb-95db-56af2453a9c4.png" width="250" align="center"/>](image.png)
-# K8s | Kind - Portal de notícias alura
+# K8s | Kind - Portal de Notícias Alura
 
 Esse projeto tem como objetivo ajudar na fixação de alguns conceitos sobre kubernetes.<br/>
-Criamos um cluster Kubernetes local utilizando o kind e realizamos a implatação de sistema Portal de Noticias desenvolvida pela Alura.
+Criamos um cluster Kubernetes local utilizando o kind e realizamos a implatação do sistema Portal de Notícias, desenvolvido pela Alura.
 
 ## Documentação
-Para entender as etapas de desencolvimento basta acessa os diretórios de manifesto:
+Para entender as etapas de desenvolvimento, basta acessar os diretórios de manifesto:
 - [database](/manifestos/database/README.md)
 - [sistema](/manifestos/sistema/README.md)
 - [portal](/manifestos/portal/README.md)
@@ -34,14 +34,14 @@ Para entender as etapas de desencolvimento basta acessa os diretórios de manife
   ```
 
   ## Acessando o projeto
-  O projeto está dividido em duas partes:
+  O projeto está dividído em duas partes:
   - Portal de notícias: onde temos o feed de notícias.
   - Sistema de notícias: onde podemos criar as notícias.
 
   Para Windows podemos acessa-lós pelas portas `localhots:30000` e `localhost:30001` espectivamente.
 
   Já para que usa linux temos que descobrir qual o IP do nosso Node,
-  pois é atravéz dele que vamos tera acesso aos nossos serviços
+  pois é atravéz dele que vamos ter acesso aos nossos serviços.
   
  [<img src="https://user-images.githubusercontent.com/77674803/158042588-5cc5bf3d-d63a-4bc6-b706-3190a5806d4e.png" width="1000"/>](image.png)
 
