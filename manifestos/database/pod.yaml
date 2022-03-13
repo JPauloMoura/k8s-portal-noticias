@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: mysql-noticias
   labels:
-    name: mysql-noticias
+    app: mysql-noticias
 spec:
   containers:
   - name: mysql-noticias
