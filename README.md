@@ -1,13 +1,8 @@
-
+[<img src="https://user-images.githubusercontent.com/62079201/158043432-5e88528d-9bd4-4ceb-95db-56af2453a9c4.png" width="250" align="center"/>](image.png)
 # K8s | Kind - Portal de notícias alura
 
 Esse projeto tem como objetivo ajudar na fixação de alguns conceitos sobre kubernetes.<br/>
 Criamos um cluster Kubernetes local utilizando o kind e realizamos a implatação de sistema Portal de Noticias desenvolvida pela Alura.
-
-Para entender as etapas de desencolvimento basta acessa os diretórios de manifesto:
-- [database](/manifestos/database/README.md)
-- [sistema](/manifestos/sistema/README.md)
-- [portal](/manifestos/portal/README.md)
 
 ## Documentação
 Para entender as etapas de desencolvimento basta acessa os diretórios de manifesto:
